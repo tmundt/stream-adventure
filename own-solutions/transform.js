@@ -6,7 +6,7 @@ throughStream.end();
 
 function write(buffer) {
 	this.queue(buffer).toString().toUpperCase();
-	console.log('queue ist: '+this.queue)
+	console.log('queue ist: '+this.queue);
 }
 
 function end() {
